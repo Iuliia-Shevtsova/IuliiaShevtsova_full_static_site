@@ -1,0 +1,122 @@
+ul{
+  list-style: none;
+}
+
+.jumbotron{
+  color: rgb(10, 112, 64);
+	padding-top: 150px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-weight: bold;
+  background: linear-gradient(0deg,#fff,transparent), url('../media/background-img.jpg') no-repeat center;
+  background-size:  cover;
+}
+
+/* ---- Navigation ---- */
+.navbar a{
+  font-size: .95em;
+  color: rgb(8, 151, 85);
+  text-transform: uppercase;
+}
+
+.navbar a:hover{
+  color: #630511;
+	font-weight: 500;
+}
+
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid lightgreen;
+  box-shadow: lightgreen 0 0 5px 3px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.profile-img:hover {
+	transform: rotate(270deg);
+	box-shadow: #630511 0 0 5px 3px;
+	border: #630511 3px solid;
+}
+
+.social-icons:hover {
+	transform: scale(1.2);
+  border: #630511 1px solid;
+  border-radius: 20%;
+}
+
+.social-icons{
+  margin: 10px; 
+  width: 25px;
+  height: 25px;
+}
+/* ---- //Navigation ---- */
+
+img .d-block {
+  width: 200px;
+}
+
+.icon{
+    padding: 5px;
+    width: 24px;
+}
+
+.table{
+  width: 80%;
+  margin: auto;
+}
+
+.dayname{
+  font-weight: bold;
+}
+
+.title-letter{
+  	font-family: 'Megrim', cursive;
+    font-weight: bold;
+}
+
+:target, .highlight:hover{
+  box-shadow: 0px 0px 10px 15px rgba(0,0,0, .4);
+}
+
+.highlight{
+  border: 1;
+}
+
+.social-media-contact a::after{
+  margin: 10px;
+  display: inline-block;  /* you need to put this, that way you can modify the shape of the element */
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.instagram::after{
+  content: url(./media/instagram.svg);
+}
+.facebook::after{
+  content: url(./media/facebook.svg);
+}
+.twitter::after{
+  content: url(./media/twitter.svg);
+}
+
+.main-footer {
+  text-align: center;
+  background: rgba(11, 92, 10, 0.5);
+  padding: 2em 0;
+  margin-top: 30px;
+}
+
+/**** video****/
+.wrapper {
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.videowrapper{
+  margin-left: 25px;
+  margin-top: 30px;
+  padding-left: auto;
+}
